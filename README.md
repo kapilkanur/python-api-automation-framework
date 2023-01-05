@@ -1,1 +1,1 @@
-# python-api-automation-framework
+# Python based REST API automation framework
