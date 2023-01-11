@@ -8,6 +8,7 @@ requests = "*"
 pytest = "*"
 assertpy = "*"
 pyyaml = "*"
+prettyprint = "*"
 
 [dev-packages]
 
