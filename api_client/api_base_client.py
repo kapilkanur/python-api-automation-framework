@@ -8,6 +8,7 @@ class BaseClient:
         self.base_uri = get_base_uri()
         self.headers = {
             'Accept': 'application/json',
+            'Content-Type': 'application/json',
             'Accept-Encoding': 'gzip, deflate, br',
             'Host': f'{self.base_uri[8:]}',
             'User-Agent': 'Mozilla / 5.0(Macintosh;Intel Mac OS X 10_15_7) AppleWebKit / 605.1.15 (KHTML, like Gecko) '

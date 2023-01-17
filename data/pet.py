@@ -6,6 +6,6 @@ class PetData:
     id: int
     name: str
     category: dict
-    photo_urls: list[str]
+    photoUrls: list[str]
     tags: list[dict]
     status: str
