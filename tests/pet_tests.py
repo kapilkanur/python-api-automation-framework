@@ -24,7 +24,7 @@ def test_adding_a_pet():
     pet_data = json.dumps(PetData(id=12,
                                   name="DoggieJi",
                                   category={"id": 1, "name": "Dogs"},
-                                  photo_urls=[""],
+                                  photoUrls=[""],
                                   tags=[{"id": 0, "name": "string"}],
                                   status="available"), default=vars)
 
